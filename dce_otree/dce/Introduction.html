@@ -1,0 +1,42 @@
+{{ block title }}
+    <i class="bi bi-briefcase-fill"></i> Bienvenue dans l’expérience sur le choix d’emploi
+{{ endblock }}
+
+{{ block content }}
+
+    <div class="card bg-light mb-4">
+        <div class="card-body">
+            <h3 class="card-title">Consignes de l'étude</h3>
+            
+            <p class="card-text">
+                Dans cette étude, nous vous demandons de vous projeter dans la situation suivante : 
+                <strong>Vous êtes à la recherche d'un emploi de bureau situé dans la zone urbaine de Montpellier.</strong>
+            </p>
+
+            <p class="card-text">
+                Nous allons vous présenter plusieurs scénarios d’offres d'emploi. 
+                Pour chaque duo d'offres, veuillez sélectionner celle que vous choisiriez réellement, 
+                en tenant compte de vos contraintes de transport et de votre mode de vie actuel à Montpellier.
+            </p>
+        </div>
+    </div>
+
+    <div class="alert alert-info">
+        <ul class="mb-0">
+            <li><strong>Aucune réponse type :</strong> Nous nous intéressons uniquement à vos préférences personnelles.</li>
+            <li><strong>Confidentialité :</strong> Vos réponses sont strictement anonymes et traitées uniquement à des fins de recherche.</li>
+            <li><strong>Durée estimée :</strong> Environ 10 à 15 minutes.</li>
+        </ul>
+    </div>
+
+    <p class="mt-4">
+        <em>Merci de répondre attentivement à chaque question. Cliquez sur le bouton ci-dessous pour commencer.</em>
+    </p>
+
+    {{ formfields }}
+
+    <div class="d-flex justify-content-end">
+        {{ next_button }}
+    </div>
+
+{{ endblock }}

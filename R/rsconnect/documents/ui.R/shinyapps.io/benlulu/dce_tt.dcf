@@ -1,0 +1,13 @@
+name: dce_tt
+title: dce_tt
+username: benlulu
+account: benlulu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16255383
+bundleId: 11284151
+url: https://benlulu.shinyapps.io/dce_tt/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rprofile|renv.lock

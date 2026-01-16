@@ -1,0 +1,354 @@
+[
+  [
+    {
+      "set": 1,
+      "alt": 1,
+      "block": 2,
+      "tt": 2,
+      "flex": 1,
+      "ergo": 1,
+      "distance": 42,
+      "salaire": 2146
+    },
+    {
+      "set": 1,
+      "alt": 2,
+      "block": 2,
+      "tt": 5,
+      "flex": 0,
+      "ergo": 0,
+      "distance": 27,
+      "salaire": 2028
+    }
+  ],
+  [
+    {
+      "set": 2,
+      "alt": 1,
+      "block": 1,
+      "tt": 5,
+      "flex": 1,
+      "ergo": 1,
+      "distance": 27,
+      "salaire": 1934
+    },
+    {
+      "set": 2,
+      "alt": 2,
+      "block": 1,
+      "tt": 2,
+      "flex": 0,
+      "ergo": 0,
+      "distance": 42,
+      "salaire": 2028
+    }
+  ],
+  [
+    {
+      "set": 3,
+      "alt": 1,
+      "block": 1,
+      "tt": 5,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 27,
+      "salaire": 1934
+    },
+    {
+      "set": 3,
+      "alt": 2,
+      "block": 1,
+      "tt": 0,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 11,
+      "salaire": 2028
+    }
+  ],
+  [
+    {
+      "set": 4,
+      "alt": 1,
+      "block": 2,
+      "tt": 0,
+      "flex": 0,
+      "ergo": 0,
+      "distance": 27,
+      "salaire": 2146
+    },
+    {
+      "set": 4,
+      "alt": 2,
+      "block": 2,
+      "tt": 5,
+      "flex": 1,
+      "ergo": 1,
+      "distance": 11,
+      "salaire": 2028
+    }
+  ],
+  [
+    {
+      "set": 5,
+      "alt": 1,
+      "block": 2,
+      "tt": 2,
+      "flex": 1,
+      "ergo": 1,
+      "distance": 27,
+      "salaire": 2146
+    },
+    {
+      "set": 5,
+      "alt": 2,
+      "block": 2,
+      "tt": 0,
+      "flex": 0,
+      "ergo": 0,
+      "distance": 11,
+      "salaire": 1934
+    }
+  ],
+  [
+    {
+      "set": 6,
+      "alt": 1,
+      "block": 1,
+      "tt": 2,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 27,
+      "salaire": 2146
+    },
+    {
+      "set": 6,
+      "alt": 2,
+      "block": 1,
+      "tt": 0,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 42,
+      "salaire": 2028
+    }
+  ],
+  [
+    {
+      "set": 7,
+      "alt": 1,
+      "block": 1,
+      "tt": 2,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 11,
+      "salaire": 1934
+    },
+    {
+      "set": 7,
+      "alt": 2,
+      "block": 1,
+      "tt": 0,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 27,
+      "salaire": 2146
+    }
+  ],
+  [
+    {
+      "set": 8,
+      "alt": 1,
+      "block": 2,
+      "tt": 0,
+      "flex": 1,
+      "ergo": 1,
+      "distance": 42,
+      "salaire": 1934
+    },
+    {
+      "set": 8,
+      "alt": 2,
+      "block": 2,
+      "tt": 5,
+      "flex": 0,
+      "ergo": 0,
+      "distance": 11,
+      "salaire": 2146
+    }
+  ],
+  [
+    {
+      "set": 9,
+      "alt": 1,
+      "block": 1,
+      "tt": 2,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 11,
+      "salaire": 2146
+    },
+    {
+      "set": 9,
+      "alt": 2,
+      "block": 1,
+      "tt": 5,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 27,
+      "salaire": 2028
+    }
+  ],
+  [
+    {
+      "set": 10,
+      "alt": 1,
+      "block": 2,
+      "tt": 0,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 11,
+      "salaire": 1934
+    },
+    {
+      "set": 10,
+      "alt": 2,
+      "block": 2,
+      "tt": 2,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 42,
+      "salaire": 2028
+    }
+  ],
+  [
+    {
+      "set": 11,
+      "alt": 1,
+      "block": 1,
+      "tt": 2,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 42,
+      "salaire": 1934
+    },
+    {
+      "set": 11,
+      "alt": 2,
+      "block": 1,
+      "tt": 0,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 11,
+      "salaire": 2146
+    }
+  ],
+  [
+    {
+      "set": 12,
+      "alt": 1,
+      "block": 2,
+      "tt": 2,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 11,
+      "salaire": 2028
+    },
+    {
+      "set": 12,
+      "alt": 2,
+      "block": 2,
+      "tt": 0,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 42,
+      "salaire": 2146
+    }
+  ],
+  [
+    {
+      "set": 13,
+      "alt": 1,
+      "block": 1,
+      "tt": 5,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 42,
+      "salaire": 2028
+    },
+    {
+      "set": 13,
+      "alt": 2,
+      "block": 1,
+      "tt": 2,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 11,
+      "salaire": 1934
+    }
+  ],
+  [
+    {
+      "set": 14,
+      "alt": 1,
+      "block": 2,
+      "tt": 5,
+      "flex": 1,
+      "ergo": 1,
+      "distance": 11,
+      "salaire": 2146
+    },
+    {
+      "set": 14,
+      "alt": 2,
+      "block": 2,
+      "tt": 2,
+      "flex": 0,
+      "ergo": 0,
+      "distance": 27,
+      "salaire": 1934
+    }
+  ],
+  [
+    {
+      "set": 15,
+      "alt": 1,
+      "block": 2,
+      "tt": 2,
+      "flex": 0,
+      "ergo": 1,
+      "distance": 27,
+      "salaire": 2028
+    },
+    {
+      "set": 15,
+      "alt": 2,
+      "block": 2,
+      "tt": 5,
+      "flex": 1,
+      "ergo": 0,
+      "distance": 42,
+      "salaire": 1934
+    }
+  ],
+  [
+    {
+      "set": 16,
+      "alt": 1,
+      "block": 1,
+      "tt": 0,
+      "flex": 1,
+      "ergo": 1,
+      "distance": 27,
+      "salaire": 2028
+    },
+    {
+      "set": 16,
+      "alt": 2,
+      "block": 1,
+      "tt": 5,
+      "flex": 0,
+      "ergo": 0,
+      "distance": 42,
+      "salaire": 2146
+    }
+  ]
+]

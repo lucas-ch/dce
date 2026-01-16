@@ -1,0 +1,66 @@
+{{ block title }}
+Quelle offre d'emploi choisiriez vous?
+{{ endblock }}
+
+{{ block content }}
+
+<!-- Header du round -->
+<div style="
+    background-color: #eef3ff;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-left: 4px solid #2c7be5;
+">
+    Choix {{ player.round_number }} sur {{ C.NUM_ROUNDS }}
+</div>
+
+<!-- Tableau des choix -->
+<div class="form-group required">
+    <table class="table table-bordered" style="width:auto; margin:auto; text-align:left;">
+        <tr>
+            <th style="font-weight:600; padding:10px 12px;">Caractéristique</th>
+            <th style="font-weight:600;">Choix A</th>
+            <th style="font-weight:600;">Choix B</th>
+        </tr>
+        <tr>
+            <td style="font-weight:500; padding:10px 12px;">Télétravail</td>
+            <td>{% if DCE_question.0.tt == 0 %}0 jour{% else %}{{ DCE_question.0.tt }} jours/semaine{% endif %}</td>
+            <td>{% if DCE_question.1.tt == 0 %}0 jour{% else %}{{ DCE_question.1.tt }} jours/semaine{% endif %}</td>
+        </tr>
+
+        <tr>
+            <td style="font-weight:500; padding:10px 12px;">Flexibilité horaire</td>
+            <td>{% if DCE_question.0.flex == 1 %}Horaires flexibles. 7h/jour dans autre contrainte{% else %}Horaires stricts. 9h - 17h{% endif %}</td>
+            <td>{% if DCE_question.1.flex == 1 %}Horaires flexibles{% else %}Horaires stricts{% endif %}</td>
+        </tr>
+
+        <tr>
+            <td style="font-weight:500; padding:10px 12px;">Équipement à domicile</td>
+            <td>{% if DCE_question.0.ergo == 1 %}Équipement ergonomique complet: bureau réglable, fauteuil ergonomique, double écran{% else %}Équipement de base: bureau et fauteuil simple, un seul écran{% endif %}</td>
+            <td>{% if DCE_question.1.ergo == 1 %}Équipement ergonomique complet: bureau réglable, fauteuil ergonomique, double écran{% else %}Équipement de base: bureau et fauteuil simple, un seul écran{% endif %}</td>
+        </tr>
+
+        <tr>
+            <td style="font-weight:500; padding:10px 12px;">Temps de trajet</td>
+            <td>{{ DCE_question.0.distance }} minutes</td>
+            <td>{{ DCE_question.1.distance }} minutes</td>
+        </tr>
+
+        <tr>
+            <td style="font-weight:500; padding:10px 12px;">Salaire net mensuel</td>
+            <td>{{ DCE_question.0.salaire }} €</td>
+            <td>{{ DCE_question.1.salaire }} €</td>
+        </tr>
+    </table>
+</div>
+
+<!-- Formulaire et bouton -->
+<div style="padding:10px; margin-top:15px; margin-left:15px;">
+    {{ formfields }}
+</div>
+
+<div style="text-align:center; margin-top:10px;">
+    {{ next_button }}
+</div>
+
+{{ endblock }}
