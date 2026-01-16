@@ -1,0 +1,20 @@
+# --- R spécifiques ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rapp.history
+*-Ex.R
+/connexion_db.R
+.Rproj
+
+# --- oTree / Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+.env
+venv/
+env/
+.DS_Store
